@@ -1,8 +1,8 @@
 let s:plugin_root_dir = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
-vnoremap <F7> :<c-u>call <SID>CodexHelp(visualmode())<cr>
+vnoremap <F7> :<c-u>call CodexHelp(visualmode())<cr>
 
-function! s:CodexHelp(type)
+function! CodexHelp(type)
     let saved_unnamed_register = @@
     
     if a:type ==# 'v'
