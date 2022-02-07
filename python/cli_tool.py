@@ -54,7 +54,7 @@ def cli():
 
 @cli.command()
 @click.argument("prompt")
-@click.option("--engine", default="davinci-codex", help="The engine to use.")
+@click.option("--engine", default="code-davinci-001", help="The engine to use.")
 @click.option("--temperature", default=0, help="The temperature to use.")
 @click.option("--max-tokens", default=171, help="The max tokens to use.")
 @click.option("--top-p", default=1, help="The top p to use.")
