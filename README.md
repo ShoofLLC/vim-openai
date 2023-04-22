@@ -7,7 +7,7 @@ This plugin was also written with the help of codex.
 
 ## Installation
 
-In order for the plugin to work, you need to set the "OPENAI_API_KEY" environment variable to your api key (see [openai developer quickstart](https://beta.openai.com/docs/developer-quickstart))
+In order for the plugin to work, you need to set the "OPENAI_API_KEY" environment variable to your api key (see [openai introduction](https://platform.openai.com/docs/api-reference/introduction))
 
 You also need (currently) to add a few packages to your nvim-python3 environment:
 - openai package
